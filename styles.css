@@ -26,4 +26,5 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.711);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
