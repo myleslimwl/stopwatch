@@ -24,6 +24,12 @@ function stopTimer(){
 
 function resetTimer(){
 
+  clearInterval(timer);
+  startTime = 0;
+  elapsedTime = 0;
+  isRunning = false;
+
+  display.textContent = '00:00:00:00';
 }
 
 function updateTimer(){
