@@ -28,3 +28,39 @@ body {
   color: rgba(0, 0, 0, 0.711);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+#controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: antiquewhite;  
+}
+
+#startBtn {
+  background-color: rgb(4, 86, 4);
+}
+
+#startBtn:hover {
+  background-color: rgb(5, 158, 5);
+}
+
+#stopBtn {
+  background-color: rgb(118, 6, 6);
+}
+
+#stopBtn:hover {
+  background-color: rgb(195, 8, 8);
+}
+
+#resetBtn {
+  background-color: rgb(3, 3, 120);
+}
+
+#resetBtn:hover {
+  background-color: rgb(8, 8, 207);
+}
